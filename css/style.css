@@ -1,0 +1,260 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.page {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h2 {
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+p {
+    margin: 15px 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+header img {
+    width: 61px;
+}
+
+header nav a {
+    padding: 15px;
+    border-top: solid 3px transparent;
+    margin-right: 10px;
+}
+
+header nav a:hover,
+header nav a:active {
+    padding-top: 20px;
+    color: #0065FC;
+    border-top: solid 3px #0065FC;
+}
+
+
+a.nav2 {
+    display: inline-block;
+    background: white;
+    border: 1px solid #D9D9D9;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 15px;
+    font-weight: 700;
+}
+
+a.nav2:hover,
+a.nav2:active {
+    background: #deebff;
+}
+
+
+
+input {
+    width: 245px;
+    height: 40px;
+    border: 1px solid #F2F2F2;
+    background-color: #FFFFFF;
+    font-weight: 700;
+}
+
+.btn-form {
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    width: 110px;
+    height: 40px;
+    left: 408px;
+    background: #0065FC;
+    border: 1px solid #0065FC;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.fa-solid.fa-location-dot {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2F2F2;
+    border: 1px solid #F2F2F2;
+    width: 45px;
+    height: 38px;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.fa-money-bill-wave,
+.fa-person,
+.fa-heart,
+.fa-dog {
+    color: #0065FC;
+    box-sizing: border-box;
+    padding: 7px;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.flex-container-filtres {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 15px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+}
+
+.tableau-gauche {
+    background: #eeeded;
+    border-radius: 20px;
+    width: 1000px;
+}
+
+.tableau-droite {
+    background: #eeeded;
+    border-radius: 20px;
+    width: 420px;
+
+}
+
+
+.rangée-haut {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 30px;
+
+}
+
+.rangée-bas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.card-gauche>img {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+    padding: 4px;
+}
+
+.card-gauche {
+    width: 29%;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.container-gauche {
+    padding-top: 10px;
+    font-weight: 700 400;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    line-height: 0.8em;
+    border-radius: 20px;
+
+
+}
+
+.card-droite>img {
+    width: 40%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px 0 0 20px;
+    padding: 4px;
+}
+
+.card-droite {
+    width: 80%;
+    height: 144px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.container-droite {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 700 400;
+    border-radius: 20px;
+    ;
+    padding: 10px;
+}
+
+
+span>i {
+    color: #0065FC;
+}
+
+.fa-solid.fa-star.grey {
+    color: #F2F2F2;
+}
+
+.container-droite>span>i {
+    margin-top: 30px;
+}
+
+.container-droite>.span2 {
+    margin-top: 15px;
+}
+
+.container-droite>h3 {
+    display: inline-block;
+    line-height: 0.9em;
+}
+
+.container-droite>p {
+    margin-top: 8px;
+}
+
+.fa-circle-info {
+    padding-right: 5px;
+}
+
+.titre-droite {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
