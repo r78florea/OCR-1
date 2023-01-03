@@ -216,10 +216,12 @@ section {
 }
 
 .container-droite {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     font-size: 16px;
     font-weight: 700 400;
     border-radius: 20px;
-    ;
     padding: 10px;
 }
 
