@@ -137,7 +137,6 @@ form {
     justify-content: flex-start;
     align-items: center;
     padding-top: 15px;
-    margin-left: ;
 }
 
 
@@ -150,13 +149,13 @@ section {
 }
 
 .tableau-gauche {
-    background: #eeeded;
+    background: #F2F2F2;
     border-radius: 20px;
     width: 65%
 }
 
 .tableau-droite {
-    background: #eeeded;
+    background: #F2F2F2;
     border-radius: 20px;
     width: 30%;
     display: flex;
@@ -295,7 +294,7 @@ span>i {
 }
 
 .activites {
-    margin-top: 50px;
+    margin-top: 80px;
     height: auto;
 }
 
@@ -328,4 +327,23 @@ span>i {
     justify-content: flex-start;
     align-items: center;
     padding-left: 20px;
+}
+
+footer {
+    background: #F2F2F2;
+    height: 300px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: -100px;
+    
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
