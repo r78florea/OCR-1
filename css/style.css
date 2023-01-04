@@ -274,3 +274,19 @@ span>i {
 .fa-solid.fa-chart-line {
     color: #0065FC;
 }
+
+.activites {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 50px;
+    height: 70%;
+}
+
+.tableau-activites {
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
