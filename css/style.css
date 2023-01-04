@@ -275,18 +275,15 @@ span>i {
 }
 
 .activites {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
     margin-top: 50px;
-    height: 70%;
+    height: auto;
 }
 
 .tableau-activites {
-    height: 700px;
+    height: auto;
     display: flex;
     flex-direction: row;
-    justify-content: ;
+    justify-content: space-between;
 }
 
 .card-activites {
