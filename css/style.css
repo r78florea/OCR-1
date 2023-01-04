@@ -51,7 +51,6 @@ header nav a:active {
     border-top: solid 3px #0065FC;
 }
 
-
 a.nav2 {
     display: inline-block;
     background: white;
@@ -66,8 +65,6 @@ a.nav2:hover,
 a.nav2:active {
     background: #deebff;
 }
-
-
 
 input {
     width: 245px;
@@ -129,7 +126,7 @@ form {
 section {
     display: flex;
     flex-direction: row;
-    justify-content: space-between ;
+    justify-content: space-between;
 }
 
 .tableau-gauche {
@@ -147,16 +144,14 @@ section {
     justify-content: space;
 }
 
-
 .rangée-haut {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     padding: 30px;
-
 }
 
-.rangée-bas{
+.rangée-bas {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -224,7 +219,6 @@ section {
     border-radius: 20px;
     padding: 10px;
 }
-
 
 span>i {
     color: #0065FC;
