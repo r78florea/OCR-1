@@ -107,7 +107,11 @@ input {
 }
 
 .nav-filtres {
-    margin-left: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 55%;
 }
 
 .fa-money-bill-wave,
