@@ -31,7 +31,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 10px;
+    padding-top: 25px;
 }
 
 header img {
@@ -39,9 +39,11 @@ header img {
 }
 
 header nav a {
-    padding: 15px;
+    padding: 15px 0;
+    margin-left: 45px;
     border-top: solid 3px transparent;
-    margin-right: 10px;
+    text-decoration: none;
+    box-sizing: border-box;
 }
 
 header nav a:hover,
@@ -51,12 +53,16 @@ header nav a:active {
     border-top: solid 3px #0065FC;
 }
 
+header nav a:visited {
+    color: #000000;
+}
+
 a.nav2 {
     display: inline-block;
     background: white;
-    border: 1px solid #D9D9D9;
+    border: 0.6px solid #D9D9D9;
     border-radius: 25px;
-    padding: 10px;
+    padding: 10px 12px;
     margin: 15px;
     font-weight: 700;
 }
@@ -67,11 +73,12 @@ a.nav2:active {
 }
 
 input {
-    width: 245px;
+    width: 225px;
     height: 40px;
     border: 1px solid #F2F2F2;
     background-color: #FFFFFF;
     font-weight: 700;
+    padding-left: 10px;
 }
 
 .btn-form {
@@ -95,8 +102,12 @@ input {
     background-color: #F2F2F2;
     border: 1px solid #F2F2F2;
     width: 45px;
-    height: 38px;
+    height: 40px;
     border-radius: 15px 0px 0px 15px;
+}
+
+.nav-filtres {
+    margin-left: 15px;
 }
 
 .fa-money-bill-wave,
@@ -105,7 +116,8 @@ input {
 .fa-dog {
     color: #0065FC;
     box-sizing: border-box;
-    padding: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 form {
@@ -121,12 +133,16 @@ form {
     justify-content: flex-start;
     align-items: center;
     padding-top: 15px;
+    margin-left: ;
 }
+
 
 section {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 30px;
+    height: 680px;
 }
 
 .tableau-gauche {
