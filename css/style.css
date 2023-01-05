@@ -186,8 +186,9 @@ section {
     border-radius: 25px 25px 0 0;
     padding-left: 4px;
     padding-right: 4px;
-    padding-top: 8px;
+    padding-top: 4px;
 }
+
 
 
 .card-gauche {
@@ -215,7 +216,7 @@ section {
 
 }
 
-.card-droite>img {
+.img-card-droite{
     width: 45%;
     height: 100%;
     object-fit: cover;
@@ -373,7 +374,16 @@ footer {
     
 }
 
+.link-card-droite {
+    width: 100%;
+    height: 155px;
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
 
-a.link-card:hover{
+}
+
+a.link-card-gauche, 
+.link-card-droite :hover{
     cursor: pointer;
 }
