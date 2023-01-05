@@ -308,6 +308,7 @@ span>i {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-top: 10px;
 }
 
 .card-activites {
@@ -383,7 +384,13 @@ footer {
 
 }
 
+.link-card-activites {
+    width: 100%
+    height: 480px;
+}
+
 a.link-card-gauche, 
-.link-card-droite :hover{
+.link-card-droite,
+.link-card-activites :hover{
     cursor: pointer;
 }
