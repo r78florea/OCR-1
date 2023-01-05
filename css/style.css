@@ -144,6 +144,7 @@ section {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-top: 30px;
     height: 680px;
 }
@@ -178,13 +179,16 @@ section {
     padding: 30px;
 }
 
-.card-gauche>img {
+.img-card-gauche {
     width: 100%;
-    height: 56%;
+    height: 55%;
     object-fit: cover;
-    border-radius: 20px 20px 0 0;
-    padding: 4px
+    border-radius: 25px 25px 0 0;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 8px;
 }
+
 
 .card-gauche {
     width: 30%;
@@ -201,10 +205,10 @@ section {
 }
 
 .container-gauche {
-    padding-top: 10px;
+    padding-top: 15px;
     font-weight: 700 400;
     padding-left: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
     line-height: 0.8em;
     border-radius: 20px;
 
@@ -360,7 +364,14 @@ footer {
 }
 
 .link-card {
-    display: block;
     width: 100%;
-    height: 100%;
+    height: 215px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction:column
+    
+}
+
+a.link-card:hover{
+    cursor: pointer;
 }
