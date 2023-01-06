@@ -1,4 +1,5 @@
 /* Reset */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -47,7 +48,7 @@ header nav a {
 }
 
 header nav a:link {
-    color:#000000
+    color: #000000
 }
 
 header nav a:hover,
@@ -82,9 +83,9 @@ a.nav2:active {
     height: 215px;
     display: flex;
     align-items: flex-start;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: center;
-    
+
 }
 
 .link-card-droite {
@@ -101,9 +102,9 @@ a.nav2:active {
     height: 480px;
 }
 
-a.link-card-gauche, 
+a.link-card-gauche,
 .link-card-droite,
-.link-card-activites :hover{
+.link-card-activites :hover {
     cursor: pointer;
 }
 
@@ -173,6 +174,10 @@ form {
     justify-content: flex-start;
     align-items: center;
     padding-top: 15px;
+}
+
+.flex-container-filtres :hover {
+    cursor: pointer;
 }
 
 
@@ -259,7 +264,7 @@ section {
     padding-top: 4px;
 }
 
-.img-card-droite{
+.img-card-droite {
     width: 45%;
     height: 100%;
     object-fit: cover;
@@ -386,7 +391,7 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    
+
 }
 
 .tableau-footer {
@@ -412,3 +417,62 @@ footer {
     padding-top: 10px;
 }
 
+
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-family: 'Raleway', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #000000;
+    }
+    
+    .page {
+        max-width: 768px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center
+
+    }
+
+    nav {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav a {
+        border-top: solid 3px transparent;
+        text-decoration: none;
+        box-sizing: border-box;
+    }
+
+    header nav a:hover,
+    header nav a:active {
+        padding-top: 20px;
+        color: #0065FC;
+        border-bottom: solid 3px #0065FC;
+    }
+    header nav a:visited {
+        color:#000000
+    }
+
+
+
+
+}
