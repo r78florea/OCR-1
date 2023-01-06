@@ -176,10 +176,9 @@ form {
     padding-top: 15px;
 }
 
-.flex-container-filtres :hover {
+.flex-container-filtres:hover {
     cursor: pointer;
 }
-
 
 section {
     display: flex;
