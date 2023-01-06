@@ -335,6 +335,7 @@ footer {
     margin-top: 100px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     
 }
 
@@ -343,6 +344,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     padding-top: 50px;
     margin-left: -250px;
 }
@@ -352,6 +354,7 @@ footer {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .text-footer {
