@@ -491,3 +491,62 @@ section {
 }
 
 }
+
+@media screen and (max-width: 768px) {
+    
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+nav {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: solid 3px #F2F2F2
+}
+
+header nav a {
+    margin-left: 1px;
+    margin-left: 1px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    ;
+}
+
+header nav a:hover,
+header nav a:active {
+    border-top: solid 3px #FFFFFF;
+    border-bottom: solid 3px #0065FC;
+    border
+}
+
+.flex-container-filtres {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.nav-filtres {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 150px;
+}
+
+a.nav2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 200px
+}
+
+}
+
+
