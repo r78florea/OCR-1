@@ -50,14 +50,14 @@
 
 
 
-    <h2>Trouvez votre Hébergement pour des vacances de rêve</h2>
-    <p>En plein centre-ville ou en pleine nature</p>
+    <h2 class="titre-1">Trouvez votre Hébergement pour des vacances de rêve</h2>
+    <p class="paragraphe-1">En plein centre-ville ou en pleine nature</p>
 
 
     <div class="form">
       <form name="Choix ville">
         <i class="fa-solid fa-location-dot"></i>
-        <label for="Choix ville"><input type="text" value="Marseille, France"></label>
+        <label for="Choix ville"><input type="text" value="Marseille, France"></label><i class="fa-solid fa-magnifying-glass"></i>
         <button class="btn-form">Rechercher</button>
       </form>
     </div>
@@ -68,13 +68,17 @@
     <div class="flex-container-filtres">
       <h3>Filtres</h3>
       <nav class="nav-filtres">
+        <div class="premiere-rangee">
         <span><a class="nav2"><i class="fa-solid fa-money-bill-wave"></i>Économique</a></span>
         <span><a class="nav2"><i class="fa-solid fa-person"></i>Familial</a></span>
+        </div>
+        <div class="deuxieme-rangee">
         <span><a class="nav2"><i class="fa-solid fa-heart"></i>Romantique</a></span>
         <span><a class="nav2"><i class="fa-solid fa-dog"></i>Animaux autorisés</a></span>
+        </div>
       </nav>
     </div>
-    <p><i class="fa-solid fa-circle-info"></i>Plus de 500 logements sont disponibles dans cette ville</p>
+    <p class="paragraphe-2"><i class="fa-light fa-circle-info"></i>Plus de 500 logements sont disponibles dans cette ville</p>
 
 
     <section id="hebergements">
@@ -226,66 +230,69 @@
         <div class="titre-droite">
           <h3>Les plus populaires</h3><i class="fa-solid fa-chart-line"></i>
         </div>
-        <div class="card-droite">
-          <a class="link-card-droite">
-            <img src="./assets/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
-              alt="Hôtel Le soleil du matin" class="img-card-droite">
-            <div class="container-droite">
-              <div class="container-bis">
-                <h3>Hôtel Le soleil du matin</h3>
-                <p>Nuit à partir de 128<span class="euro">€</span></p>
+        <div class="rangee-droite">
+          <div class="card-droite">
+            <a class="link-card-droite">
+              <img src="./assets/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                alt="Hôtel Le soleil du matin" class="img-card-droite">
+              <div class="container-droite">
+                <div class="container-bis">
+                  <h3>Hôtel Le soleil du matin</h3>
+                  <p>Nuit à partir de 128<span class="euro">€</span></p>
+                </div>
+                <span class="etoiles">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star grey"></i>
+                </span>
               </div>
-              <span class="etoiles">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star grey"></i>
-              </span>
-            </div>
-          </a>
-        </div>
+            </a>
+          </div>
 
 
-        <div class="card-droite">
-          <a class="link-card-droite">
-            <img src="./assets/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
-              alt="Chambres d'hôtes Au coeur de l'eau" class="img-card-droite">
-            <div class="container-droite">
-              <div class="container-bis">
-                <h3>Chambres d'hôtes Au coeur de l'eau</h3>
-                <p>Nuit à partir de 71<span class="euro">€</span></p>
+          <div class="card-droite">
+            <a class="link-card-droite">
+              <img src="./assets/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
+                alt="Chambres d'hôtes Au coeur de l'eau" class="img-card-droite">
+              <div class="container-droite">
+                <div class="container-bis">
+                  <h3>Chambres d'hôtes Au coeur de l'eau</h3>
+                  <p>Nuit à partir de 71<span class="euro">€</span></p>
+                </div>
+                <span class="etoiles">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star grey"></i>
+                </span>
               </div>
-              <span class="etoiles">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star grey"></i>
-              </span>
-            </div>
-          </a>
-        </div>
+            </a>
+          </div>
 
 
-        <div class="card-droite">
-          <a class="link-card-droite">
-            <img src="./assets/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
-              alt="Hôtel Bleu et Blanc" class="img-card-droite">
-            <div class="container-droite">
-              <div class="container-bis">
-                <h3>Hôtel Bleu et Blanc</h3>
-                <p>Nuit à partir de 68<span class="euro">€</span></p>
+          <div class="card-droite">
+            <a class="link-card-droite">
+              <img src="./assets/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+                alt="Hôtel Bleu et Blanc" class="img-card-droite">
+              <div class="container-droite">
+                <div class="container-bis">
+                  <h3>Hôtel Bleu et Blanc</h3>
+                  <p>Nuit à partir de 68<span class="euro">€</span></p>
+                </div>
+                <span class="etoiles">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star grey"></i>
+                </span>
               </div>
-              <span class="etoiles">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star grey"></i>
-              </span>
-            </div>
-          </a>
+            </a>
+          </div>
         </div>
       </div>
 
