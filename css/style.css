@@ -348,11 +348,11 @@ span>i {
     color: #F2F2F2;
 }
 
-.fa-light.fa-circle-info {
+.fa-solid.fa-circle-info {
     margin-right: 5px;
     color: #FFFFFF;
     background-color: #0065FC;
-
+    border: solid 2px #FFFFFF;
 }
 
 .euro {
