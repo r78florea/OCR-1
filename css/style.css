@@ -133,6 +133,10 @@ input {
     border-radius: 0px 15px 15px 0px;
 }
 
+.fa-solid.fa-magnifying-glass {
+    display: none;
+}
+
 .fa-solid.fa-location-dot {
     display: flex;
     flex-direction: row;
@@ -344,8 +348,11 @@ span>i {
     color: #F2F2F2;
 }
 
-.fa-circle-info {
-    padding-right: 5px;
+.fa-light.fa-circle-info {
+    margin-right: 5px;
+    color: #FFFFFF;
+    background-color: #0065FC;
+
 }
 
 .euro {
@@ -501,7 +508,7 @@ footer {
 @media screen and (min-width: 2px) and (max-width: 768px) {
 
     .page {
-        margin: 0 20px 0 20px;
+
     }
 
     header {
@@ -511,7 +518,7 @@ footer {
         align-items: center;
     }
 
-    nav {
+    header>nav {
         margin-top: 25px;
         display: flex;
         flex-direction: row;
@@ -550,6 +557,7 @@ footer {
         align-items: center;
         height: 150px;
         justify-content: flex-start;
+        margin-top: -20px;
     }
 
     a.nav2 {
@@ -571,6 +579,8 @@ footer {
         flex-direction: row;
         justify-content: space-evenly;
         width: 100%;
+        padding: 0 30px;
+        margin-left: -30px;
     }   
 
     .deuxieme-rangee {
@@ -578,6 +588,9 @@ footer {
         flex-direction: row;
         justify-content: space-evenly;
         width: 100%;
+        margin-top: -45px;
+        padding: 0 30px;
+        margin-left: -30px;
     }
 
     .fa-money-bill-wave,
@@ -590,14 +603,17 @@ footer {
 section {
     display: flex;
     flex-direction: column-reverse;
+    
+    
 }
 
 .tableau-gauche {
-    width: 100%;
-    height: 1540px;
+    width: 105%;
+    height: 1480px;
     flex-direction: column;
     margin-top: 15px;
     background-color: #FFFFFF;
+    margin-left: 20px;
 }
 
 .titre-haut {
@@ -610,14 +626,18 @@ section {
 
 .tableau-droite {
     flex-direction: row;
-    width: 100%;
+    width: 115%;
     height: 600px;
     margin-top: 10px;
+    margin-left: 0px;
+    border-radius: 0px;
 }
 
 .rangee-droite {
     display: flex;
     flex-direction: column;
+    margin-top: -50px;
+    width: 92%;
 }
 
 .card-droite {
@@ -639,6 +659,95 @@ section {
 .rangée-bas {
     flex-direction: column;
     padding: 0;
+}
+
+.tableau-activites {
+    flex-direction: column;
+    width: 110%;
+}
+
+.card-activites {
+    width: 95%;
+    height: 200px;
+    margin-top: 15px;
+}
+
+.activites {
+    margin-top: 65px;
+    height: auto;
+    margin-left: 15px;
+}
+
+.activites>h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 53%;
+}
+
+.container-activites {
+    height: 25px;
+    padding-bottom: 10px;
+}
+
+footer {
+    height: 500px;
+    width: 115%;
+}
+
+.footer {
+    line-height: 0.3em;
+    margin-top: 50px;
+}
+.tableau-footer {
+    margin-left: -65px;
+    justify-content: flex-start;
+    padding-top: 0px;
+    flex-direction: column;
+}
+
+.titre-droite {
+    padding-top: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.paragraphe-1 {
+    margin-left: 20px;
+}
+
+.paragraphe-2 {
+    margin-left: 20px;
+    margin-top: -10px;
+}
+.titre-1 {
+    margin-left: 20px;
+}
+
+.btn-form {
+    display: none;
+}
+
+.fa-solid.fa-magnifying-glass {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    height: 40px;
+    width: 40px;
+    background: #0065FC;
+    border: 1px solid #0065FC;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.form {
+    margin-left: 20px;
+}
+
+.flex-container-filtres>h3 {
+    margin-left: 20px;
+    margin-top: 10px;
 }
 
 }
