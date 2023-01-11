@@ -96,7 +96,7 @@ a.nav2:active {
     height: 155px;
     display: flex;
     flex-direction: row;
-    align-items: space-between;
+    
 
 }
 
@@ -260,7 +260,6 @@ section {
     height: 155px;
     display: flex;
     flex-direction: row;
-    align-items: space-between;
     flex-wrap: wrap;
     background: #FFFFFF;
     border-radius: 20px;
@@ -538,7 +537,6 @@ footer {
     header nav a:active {
         border-top: solid 3px #FFFFFF;
         border-bottom: solid 3px #0065FC;
-        border
     }
 
     .flex-container-filtres {
