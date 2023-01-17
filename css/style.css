@@ -22,6 +22,7 @@ body {
     margin: 0 auto;
 }
 
+h1,
 h2 {
     font-weight: 700;
     margin: 15px 0;
@@ -61,6 +62,40 @@ header nav a:active {
     border-top: solid 3px #0065FC;
 }
 
+section.recherche {
+    padding: 0;
+}
+
+.info-circle {
+    border: solid 1px grey;
+    border-radius: 100%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.paragraphe-x {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.fa-solid.fa-info {
+    color: #0065FC;
+    font-size: 16px;
+}
+
+.paragraphe-2 {
+    color: #000000;
+    font-size: 16px;
+    display: inline-block;
+
+}
+
 /*
 header nav a:visited {
     color: #000000;
@@ -96,7 +131,7 @@ a.nav2:active {
     height: 155px;
     display: flex;
     flex-direction: row;
-    
+
 
 }
 
@@ -187,7 +222,7 @@ form {
     cursor: pointer;
 }
 
-section {
+section#hebergements {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -208,10 +243,10 @@ section {
 .tableau-droite {
     background: #F2F2F2;
     border-radius: 20px;
-    width: 30%;
+    width: 32%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -238,6 +273,7 @@ section {
     justify-content: space-evenly;
     align-items: center;
     height: 85%;
+    
 }
 
 .card-gauche {
@@ -331,12 +367,11 @@ section {
 }
 
 .titre-droite {
-    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-left: 35px;
-    padding-right: 35px;
+    align-items: center;
+    width: 85%;
 }
 
 span>i {
@@ -438,6 +473,7 @@ footer {
 @media screen and (max-width: 992px) {
 
     .page {
+        width: 100%;
         margin: 0 auto;
     }
 
@@ -452,10 +488,14 @@ footer {
 
     }
 
-    section {
+    section#hebergements {
         flex-direction: column;
         height: 100%;
 
+    }
+
+    section.recherche {
+        padding: 0 20px;
     }
 
     .tableau-gauche {
@@ -482,7 +522,6 @@ footer {
 
     .titre-droite {
         padding-top: 40px;
-        margin-left: 15px;
     }
 
     .card-activites {
@@ -595,11 +634,15 @@ footer {
         padding-right: 5px;
     }
 
-    section {
+    section#hebergements {
         display: flex;
         flex-direction: column-reverse;
 
 
+    }
+
+    section.recherche {
+        padding: 0 20px;
     }
 
     .tableau-gauche {
@@ -708,17 +751,8 @@ footer {
         margin-right: 15px;
     }
 
-    .paragraphe-1 {
-        margin-left: 20px;
-    }
-
     .paragraphe-2 {
-        margin-left: 20px;
         margin-top: -10px;
-    }
-
-    .titre-1 {
-        margin-left: 20px;
     }
 
     .btn-form {
@@ -738,12 +772,7 @@ footer {
         border-radius: 0px 15px 15px 0px;
     }
 
-    .form {
-        margin-left: 20px;
-    }
-
     .flex-container-filtres>h3 {
-        margin-left: 20px;
         margin-top: 10px;
     }
 

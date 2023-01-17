@@ -17,26 +17,15 @@
 
 
 
-
 <body>
 
-
-
-
-
-
-
   <div class="page">
-
-
-
-
 
     <header>
 
       <img src="./assets/images/logo/booki.png" alt="logo Booki">
       <nav>
-        <a href="#hebergemets">Hébergements</a>
+        <a href="#hebergements">Hébergements</a>
         <a href="#activites">Activités</a>
       </nav>
 
@@ -44,58 +33,61 @@
 
 
 
+    <section class="recherche">
+      <h2>Trouvez votre Hébergement pour des vacances de rêve</h2>
+      <p class="paragraphe-1">En plein centre-ville ou en pleine nature</p>
 
+      <div class="form">
+        <form name="choix-ville">
+          <i class="fa-solid fa-location-dot"></i>
+          <label for="choix-ville"><input id="choix-ville" type="text" value="Marseille, France"></label><i
+            class="fa-solid fa-magnifying-glass"></i>
+          <button class="btn-form">Rechercher</button>
+        </form>
+      </div>
 
+      <div class="flex-container-filtres">
+        <h3>Filtres</h3>
+        <nav class="nav-filtres">
+          <div class="premiere-rangee">
+            <span><a class="nav2"><i class="fa-solid fa-money-bill-wave"></i>Économique</a></span>
+            <span><a class="nav2"><i class="fa-solid fa-person"></i>Familial</a></span>
+          </div>
+          <div class="deuxieme-rangee">
+            <span><a class="nav2"><i class="fa-solid fa-heart"></i>Romantique</a></span>
+            <span><a class="nav2"><i class="fa-solid fa-dog"></i>Animaux autorisés</a></span>
+          </div>
+        </nav>
+      </div>
 
-
-
-
-    <h2 class="titre-1">Trouvez votre Hébergement pour des vacances de rêve</h2>
-    <p class="paragraphe-1">En plein centre-ville ou en pleine nature</p>
-
-
-    <div class="form">
-      <form name="choix-ville">
-        <i class="fa-solid fa-location-dot"></i>
-        <label for="choix-ville"><input id="choix-ville" type="text" value="Marseille, France"></label><i class="fa-solid fa-magnifying-glass"></i>
-        <button class="btn-form">Rechercher</button>
-      </form>
-    </div>
-
-
-
-
-    <div class="flex-container-filtres">
-      <h3>Filtres</h3>
-      <nav class="nav-filtres">
-        <div class="premiere-rangee">
-        <span><a class="nav2"><i class="fa-solid fa-money-bill-wave"></i>Économique</a></span>
-        <span><a class="nav2"><i class="fa-solid fa-person"></i>Familial</a></span>
+      <div class="paragraphe-x">
+        <div class="info-circle">
+          <i class="fa-solid fa-info"></i>
         </div>
-        <div class="deuxieme-rangee">
-        <span><a class="nav2"><i class="fa-solid fa-heart"></i>Romantique</a></span>
-        <span><a class="nav2"><i class="fa-solid fa-dog"></i>Animaux autorisés</a></span>
-        </div>
-      </nav>
-    </div>
-    <p class="paragraphe-2"><i class="fa-solid fa-circle-info"></i>Plus de 500 logements sont disponibles dans cette ville</p>
+        <p class="paragraphe-2">Plus de 500 logements sont disponibles dans cette ville</p>
+      </div>
+
+    </section>
+
+
 
 
     <section id="hebergements">
 
       <div class="tableau-gauche">
 
+
         <div class="titre-haut">
           <h2>Hébergements à Marseille</h2>
         </div>
-
 
         <div class="rangée-haut">
 
 
           <div class="card-gauche">
             <a class="link-card-gauche">
-              <img src="./assets/images/hebergements/4_small/La-canèbiere.jpg" alt="La-canebiere" class="img-card-gauche">
+              <img src="./assets/images/hebergements/4_small/La-canèbiere.jpg" alt="La-canebiere"
+                class="img-card-gauche">
               <div class="container-gauche">
                 <h3>Auberge la Canebière</h3>
                 <p>Nuit à partir de 35<span class="euro">€</span></p>
@@ -154,7 +146,11 @@
         </div>
 
 
+
+
         <div class="rangée-bas">
+
+
 
           <div class="card-gauche">
             <a class="link-card-gauche">
@@ -220,14 +216,10 @@
       </div>
 
 
-
-
-
-
       <div class="tableau-droite">
 
         <div class="titre-droite">
-          <h3>Les plus populaires</h3><i class="fa-solid fa-chart-line"></i>
+          <h2>Les plus populaires</h2><i class="fa-solid fa-chart-line"></i>
         </div>
         <div class="rangee-droite">
           <div class="card-droite">
@@ -242,7 +234,7 @@
                 <span class="etoiles">
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
-                  
+
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star grey"></i>
@@ -296,6 +288,10 @@
       </div>
 
     </section>
+
+
+
+
 
     <div class="activites" id="activites">
       <h2>Activites à Marseille</h2>
