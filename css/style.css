@@ -253,7 +253,7 @@ section#hebergements {
     flex-wrap: wrap;
 }
 
-.rangée-haut {
+.container-hebergements {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -263,7 +263,7 @@ section#hebergements {
     margin-top: -35px;
 }
 
-.rangee-droite {
+.container-card-droite {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -496,7 +496,7 @@ footer {
         margin-top: 60px;
     }
 
-    .rangee-droite {
+    .container-card-droite {
         flex-direction: row;
         margin-top: -25px;
     }
@@ -653,7 +653,7 @@ footer {
         border-radius: 0px;
     }
 
-    .rangee-droite {
+    .container-card-droite {
         display: flex;
         flex-direction: column;
         margin-top: -50px;
@@ -669,10 +669,10 @@ footer {
     .card-gauche {
         width: 95%;
         margin-top: 10px;
-        ;
+        
     }
 
-    .rangée-haut {
+    .container-hebergements {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
