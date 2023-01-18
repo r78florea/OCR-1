@@ -228,7 +228,7 @@ section#hebergements {
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 30px;
-    height: 680px;
+    height: 650px;
 }
 
 .tableau-gauche {
@@ -237,7 +237,9 @@ section#hebergements {
     width: 65%;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     flex-wrap: wrap;
+    padding-left: 20px;
 }
 
 .tableau-droite {
@@ -251,29 +253,24 @@ section#hebergements {
     flex-wrap: wrap;
 }
 
-.rangée-haut {
+.container-hebergements {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    padding: 30px;
+    align-items: center;
+    height: 75%;
+    margin-top: -35px;
 }
 
-.rangée-bas {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    padding: 30px;
-}
-
-.rangee-droite {
+.container-card-droite {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     height: 85%;
-    
+    margin-top: -3px;
+
 }
 
 .card-gauche {
@@ -348,22 +345,11 @@ section#hebergements {
     padding-bottom: 8px
 }
 
-.titre-haut {
+.titre-hebergements {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    padding-left: 60px;
-    margin-bottom: -25px;
-    margin-top: 30px;
-}
-
-.titre-bas {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    padding-left: 60px;
-    margin-top: 15px;
-    margin-bottom: 45px;
+    padding-left: 25px;
 }
 
 .titre-droite {
@@ -372,6 +358,11 @@ section#hebergements {
     justify-content: space-between;
     align-items: center;
     width: 85%;
+    margin-top: 3px;
+}
+
+#titre-activites {
+margin-top: 60px;
 }
 
 span>i {
@@ -398,11 +389,6 @@ span>i {
 }
 
 .activites {
-    margin-top: 80px;
-    height: auto;
-}
-
-.tableau-activites {
     height: auto;
     display: flex;
     flex-direction: row;
@@ -510,7 +496,7 @@ footer {
         margin-top: 60px;
     }
 
-    .rangee-droite {
+    .container-card-droite {
         flex-direction: row;
         margin-top: -25px;
     }
@@ -637,8 +623,10 @@ footer {
     section#hebergements {
         display: flex;
         flex-direction: column-reverse;
+    }
 
-
+    .titre-hebergements {
+        padding-left: 10px;
     }
 
     section.recherche {
@@ -651,15 +639,9 @@ footer {
         flex-direction: column;
         margin-top: 15px;
         background-color: #FFFFFF;
-        margin-left: 20px;
-    }
-
-    .titre-haut {
-        padding: 0;
-    }
-
-    .titre-bas {
-        display: none;
+        justify-content: space-between;
+        padding: 0px;
+        margin-left: 10px
     }
 
     .tableau-droite {
@@ -671,7 +653,7 @@ footer {
         border-radius: 0px;
     }
 
-    .rangee-droite {
+    .container-card-droite {
         display: flex;
         flex-direction: column;
         margin-top: -50px;
@@ -687,21 +669,16 @@ footer {
     .card-gauche {
         width: 95%;
         margin-top: 10px;
+        
     }
 
-    .rangée-haut {
-        margin-top: 20px;
-    }
-
-    .rangée-haut,
-    .rangée-bas {
-        flex-direction: column;
-        padding: 0;
-    }
-
-    .tableau-activites {
-        flex-direction: column;
-        width: 110%;
+    .container-hebergements {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items: center;
+        height: 95%;
     }
 
     .card-activites {
@@ -711,22 +688,22 @@ footer {
     }
 
     .activites {
-        margin-top: 65px;
         height: auto;
-        margin-left: 15px;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 955px;
+        margin-top: -40px;
     }
 
-    .activites>h2 {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        width: 53%;
-    }
 
     .container-activites {
-        height: 25px;
-        padding-bottom: 10px;
+        justify-content: flex-start;
+        align-items: flex-end;
     }
+
 
     footer {
         height: 500px;
@@ -774,6 +751,31 @@ footer {
 
     .flex-container-filtres>h3 {
         margin-top: 10px;
+    }
+
+    #titre-hebergement-bas {
+        display: none;
+    }
+
+    .link-card-activites {
+        display: flex;
+        width: 100%;
+        height: 200px;
+        flex-direction: column;
+    }
+
+    .img-activites {
+        width: 100%;
+        height: 75%;
+        object-fit: cover;
+        border-radius: 20px 20px 0 0;
+    }
+
+    #titre-activites {
+        margin-top: 60px;
+        margin-bottom: 0px;
+        margin-left: 20px;
+        width: 50%;
     }
 
 }
