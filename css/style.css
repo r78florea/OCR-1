@@ -20,35 +20,48 @@ body {
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
+    padding: 0 25px;
 }
 
 h1,
 h2 {
     font-weight: 700;
-    margin: 15px 0;
+    margin: 22px 0;
+    background-color: #0065FC;
 }
 
 p {
     margin: 15px 0;
 }
 
+input, .btn-form {
+    font-family: 'Raleway';
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
 header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-top: 25px;
 }
 
 header img {
+    height: 19px;
     width: 61px;
+    margin-top: 44px;
 }
 
 header nav a {
     padding: 15px 0;
-    margin-left: 45px;
-    border-top: solid 3px transparent;
+    margin: 0 10px;
+    border-top: solid 2px transparent;
     text-decoration: none;
-    box-sizing: border-box;
+    padding-top: 48px;
+    display:inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 header nav a:link {
@@ -57,13 +70,12 @@ header nav a:link {
 
 header nav a:hover,
 header nav a:active {
-    padding-top: 20px;
     color: #0065FC;
     border-top: solid 3px #0065FC;
 }
 
 section.recherche {
-    padding: 0;
+    margin-top: 48px;
 }
 
 .info-circle {
@@ -148,24 +160,23 @@ a.link-card-gauche,
 
 input {
     width: 225px;
-    height: 40px;
+    height: 50px;
     border: 1px solid #F2F2F2;
     background-color: #FFFFFF;
     font-weight: 700;
     padding-left: 10px;
+    
 }
 
 .btn-form {
     color: white;
-    font-size: 14px;
-    font-weight: 700;
     text-align: center;
-    width: 110px;
-    height: 40px;
+    height: 50px;
     left: 408px;
     background: #0065FC;
     border: 1px solid #0065FC;
     border-radius: 0px 15px 15px 0px;
+    padding: 0 16px;
 }
 
 .fa-solid.fa-magnifying-glass {
@@ -179,8 +190,8 @@ input {
     align-items: center;
     background-color: #F2F2F2;
     border: 1px solid #F2F2F2;
-    width: 45px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border-radius: 15px 0px 0px 15px;
 }
 
@@ -190,7 +201,7 @@ input {
     justify-content: space-evenly;
     align-items: flex-start;
     flex-wrap: wrap;
-    width: 55%;
+    width: 56%;
 }
 
 .fa-money-bill-wave,
@@ -206,7 +217,7 @@ input {
 form {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: flex-start;  
     align-items: flex-start;
 }
 
@@ -214,7 +225,8 @@ form {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: center;
+     align-items: center;
+    /* flex-wrap: wrap; */
     padding-top: 15px;
 }
 
@@ -456,7 +468,10 @@ footer {
 
 
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 992px)  {
+    h2{
+        background-color: green;
+    }
 
     .page {
         width: 100%;
@@ -531,7 +546,9 @@ footer {
 }
 
 @media screen and (min-width: 2px) and (max-width: 768px) {
-
+    h2{
+        background-color: red;
+    }
     header {
         display: flex;
         flex-direction: column;
