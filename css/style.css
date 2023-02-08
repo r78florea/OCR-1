@@ -252,7 +252,7 @@ section#hebergements {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     margin-top: 30px;
     height: 650px;
 }
@@ -260,18 +260,18 @@ section#hebergements {
 .tableau-gauche {
     background: #F2F2F2;
     border-radius: 20px;
-    width: 65%;
+    width: 880px; 
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    padding-left: 20px;
+    justify-content: space-evenly; 
+    flex-wrap: wrap;  
+    /* padding-left: 20px; */
 }
 
 .tableau-droite {
     background: #F2F2F2;
     border-radius: 20px;
-    width: 32%;
+    width: 420px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -279,15 +279,25 @@ section#hebergements {
     flex-wrap: wrap;
 }
 
-.container-hebergements {
+.bloc-hebergements {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.container-hebergements, .container-hebergements-bis {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-items: center;
-    height: 75%;
-    margin-top: -35px;
+    justify-content: space-evenly; 
+     flex-wrap: wrap; 
+    align-items: center; 
+    
+    /* height: 75%; */
+     /* margin-top: -35px;  */
 }
+
 
 .container-card-droite {
     display: flex;
@@ -379,7 +389,7 @@ section#hebergements {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    padding-left: 25px;
+    padding-left: 25px; 
 }
 
 .titre-droite {
@@ -519,7 +529,7 @@ footer {
     }
 
     .tableau-droite {
-        width: 100%;
+        width: 883px;
         flex-direction: column;
         height: 278px;
         margin-top: 60px;
@@ -539,12 +549,14 @@ footer {
         flex-direction: row;
         padding: 0 20px;
         height: 55%;
+        width: 100%;
     }
 
     .card-droite {
         height: 144px;
-        width: 30%;
+        width: 252px;
         line-height: 0.9em;
+        
     }
 
     .titre-droite {
@@ -572,11 +584,14 @@ footer {
     }
 
     .tableau-footer {
-        justify-content: center;
+        justify-content: space-around;
+        padding: 0;
+
     }
 
     .footer {
-        margin-left: 90px;
+        padding-top: 45px;
+        justify-content: flex-start;
     }
 
     footer {
@@ -586,6 +601,11 @@ footer {
 }
 
 @media screen and (min-width: 2px) and (max-width: 768px) {
+
+    .page {
+        margin: 0
+    }
+
     h2{
         background-color: red;
     }
@@ -691,51 +711,59 @@ footer {
     }
 
     .tableau-gauche {
-        width: 105%;
-        height: 1480px;
+        /* width: 50%; */
+        /* height: 1480px; */
         flex-direction: column;
         margin-top: 15px;
         background-color: #FFFFFF;
         justify-content: space-between;
         padding: 0px;
-        margin-left: 10px
     }
 
     .tableau-droite {
         flex-direction: row;
-        width: 115%;
-        height: 600px;
-        margin-top: 10px;
-        margin-left: 0px;
-        border-radius: 0px;
+        justify-content: center;
+        width: 375px;
+        height: 580px;
+        /* margin-top: 10px; */
+        /* margin-left: 0px; */
+        /* border-radius: 0px; */
+        margin: 0;
     }
 
     .container-card-droite {
         display: flex;
         flex-direction: column;
-        margin-top: -50px;
-        width: 92%;
+        gap: 10px;
+        height: 500px;
     }
 
     .card-droite {
-        width: 88%;
+        width: 334px;
         line-height: 0.9em;
-        height: 155px;
+        height: 144px;
     }
 
     .card-gauche {
-        width: 95%;
+        width: 355px;
         margin-top: 10px;
         
     }
 
-    .container-hebergements {
+    .bloc-hebergements {
         display: flex;  
-        flex-direction: row;
-        justify-content: space-evenly;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .container-hebergements, .container-hebergements-bis {
+        display: flex;  
+        flex-direction: column;
+        justify-content: flex-start;
         flex-wrap: wrap;
         align-items: center;
-        height: 95%;
+        /* height: 95%; */
     }
 
     .card-activites {
@@ -758,22 +786,24 @@ footer {
 
     .container-activites {
         justify-content: flex-start;
-        align-items: flex-end;
+
     }
 
 
     footer {
-        height: 500px;
-        width: 115%;
+        height: 501px;
+        width: 377px;
     }
 
     .footer {
         line-height: 0.3em;
         margin-top: 50px;
+        padding-top: 0;
+        padding-left: 33px;
+
     }
 
     .tableau-footer {
-        margin-left: -65px;
         justify-content: flex-start;
         padding-top: 0px;
         flex-direction: column;
@@ -786,7 +816,7 @@ footer {
     }
 
     .paragraphe-2 {
-        margin-top: -10px;
+        margin-top: 46px;
     }
 
     form > button {        
@@ -838,5 +868,9 @@ footer {
         margin-left: 20px;
         width: 50%;
     }
+    .img-card-gauche {
+        width: 100%;
+    }
+
 
 }
