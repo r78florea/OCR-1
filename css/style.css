@@ -9,6 +9,10 @@
     padding: 0;
 }
 
+.bordure {
+    border: solid 1px red;
+}
+
 body {
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
@@ -122,14 +126,48 @@ header nav a:visited {
 
 
 .link-card-gauche {
-    width: 100%;
+    display: inline-block;
+    width: 245px;
     height: 215px;
     display: flex;
+    /* justify-content: center; */
     align-items: flex-start;
+    flex-wrap: wrap;
+    background: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 4px;    
+}
+
+
+.link-card-gauche>p, .link-card-gauche>h3 {
+    margin: 3px;
+}
+
+.link-card-gauche>img {
+    width: 100%;
+    height: 124px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px 20px 0 0;
+}
+
+.card-gauche {
+    width: 245px;
+    height: 200px;
+    display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
+
+
 
 .link-card-droite {
     width: 100%;
@@ -257,7 +295,7 @@ section#hebergements {
     height: 650px;
 }
 
-.tableau-gauche {
+.hebergements {
     background: #F2F2F2;
     border-radius: 20px;
     width: 880px; 
@@ -268,7 +306,7 @@ section#hebergements {
     /* padding-left: 20px; */
 }
 
-.tableau-droite {
+.populaires {
     background: #F2F2F2;
     border-radius: 20px;
     width: 420px;
@@ -281,23 +319,11 @@ section#hebergements {
 
 .bloc-hebergements {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 30px;
 }
-
-.container-hebergements, .container-hebergements-bis {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly; 
-     flex-wrap: wrap; 
-    align-items: center; 
-    
-    /* height: 75%; */
-     /* margin-top: -35px;  */
-}
-
 
 .container-card-droite {
     display: flex;
@@ -309,20 +335,7 @@ section#hebergements {
 
 }
 
-.card-gauche {
-    width: 245px;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    background: #FFFFFF;
-    border-radius: 20px;
-    padding-bottom: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
-}
 
 .card-droite {
     width: 85%;
@@ -336,15 +349,7 @@ section#hebergements {
 
 }
 
-.img-card-gauche {
-    width: 246px;
-    height: 124px;
-    object-fit: cover;
-    border-radius: 25px 25px 0 0;
-    padding-left: 4px;
-    padding-right: 4px;
-    padding-top: 12px
-}
+
 
 .img-card-droite {
     width: 50%;
@@ -355,20 +360,6 @@ section#hebergements {
 
 }
 
-.container-gauche {
-    height: 80px;
-    /* padding-top: 15px; */
-    font-weight: 700 400;
-    padding-left: 20px;
-    /* padding-bottom: 0px; */
-    line-height: 0.8em;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: baseline;
-    margin-top: 5px;
-}
 
 .container-droite {
     display: flex;
@@ -385,12 +376,12 @@ section#hebergements {
     padding-bottom: 8px
 }
 
-.titre-hebergements {
+/* .titre-hebergements {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     padding-left: 25px; 
-}
+} */
 
 .titre-droite {
     display: flex;
@@ -523,12 +514,12 @@ footer {
         padding: 0;
     }
 
-    .tableau-gauche {
+    .hebergements {
         width: 100%;
         height: 700px;
     }
 
-    .tableau-droite {
+    .populaires {
         width: 883px;
         flex-direction: column;
         height: 278px;
@@ -702,15 +693,15 @@ footer {
         flex-direction: column-reverse;
     }
 
-    .titre-hebergements {
+    /* .titre-hebergements {
         padding-left: 10px;
-    }
+    } */
 
     section.recherche {
         padding: 0 20px;
     }
 
-    .tableau-gauche {
+    .hebergements {
         /* width: 50%; */
         /* height: 1480px; */
         flex-direction: column;
@@ -719,8 +710,7 @@ footer {
         justify-content: space-between;
         padding: 0px;
     }
-
-    .tableau-droite {
+    .populaires {
         flex-direction: row;
         justify-content: center;
         width: 375px;
