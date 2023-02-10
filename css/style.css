@@ -216,35 +216,38 @@ a.nav2:active {
 
 }
 
+/* Conteneur des hébergements et des populaires */
 section#hebergements {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* flex-wrap: wrap; */
     margin-top: 30px;
-    height: 650px;
+    border: solid 1px red;
 }
 
 .hebergements {
     background: #F2F2F2;
     border-radius: 20px;
-    width: 880px;
+    width: 65%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    flex-wrap: wrap;
-    /* padding-left: 20px; */
+    border: solid 1px red;
+    padding: 20px 40px;
 }
 
+
+/* Blocs hébergements */
 .bloc-hebergements {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     gap: 30px;
+
 }
 
-.link-card-gauche {
+.bloc-hebergement {
     display: inline-block;
     width: 245px;
     height: 215px;
@@ -257,12 +260,7 @@ section#hebergements {
     padding: 4px;
 }
 
-.link-card-gauche>p,
-.link-card-gauche>h3 {
-    margin: 3px;
-}
-
-.link-card-gauche>img {
+.bloc-hebergement > img {
     width: 100%;
     height: 124px;
     object-fit: cover;
@@ -270,8 +268,27 @@ section#hebergements {
     border-radius: 20px 20px 0 0;
 }
 
+.bloc-hebergement > h3 {
+    margin: 22px 0;
+}
+
+.bloc-hebergement > div {
+    padding: 0 12px;
+}
+
+.bloc-hebergement > div > p {
+    margin: 3px;
+    font-size: 14px;
+}
+
+.bloc-hebergement > div > h3 {
+    margin: 3px;
+    font-size: 16px;
+}
+
 span>i {
     color: #0065FC;
+    font-size: 14px;
 }
 
 .fa-solid.fa-star.grey {
@@ -283,25 +300,28 @@ a.link-card-gauche,
 .link-card-activites :hover {
     cursor: pointer;
 }
-
+a.link-card-droite {
+    display: flex;
+}
 .populaires {
     background: #F2F2F2;
     border-radius: 20px;
-    width: 420px;
+    min-width: 380px;
+    width: 33%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 40px;
+    border: solid 1px red;
 }
 
-.titre-droite {
+
+.populaires > h2 {
+    background-color: #FFFFFF;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    width: 85%;
-    margin-top: 3px;
+    width: 100%;
+    
 }
 
 .fa-solid.fa-chart-line {
@@ -311,30 +331,28 @@ a.link-card-gauche,
 .bloc-populaires {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 85%;
-    margin-top: -3px;
-
+    gap: 30px;
 }
 
 .link-card-droite {
-    width: 100%;
-    height: 155px;
-    display: flex;
-    flex-direction: row;
+    width: ;
+    height: 144px;
+    display: inline-block;
+    background: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.img-card-droite {
-    width: 50%;
-    height: 100%;
+.link-card-droite>img {
+    width: 137px;
+    height: 144px;
     object-fit: cover;
     border-radius: 20px 0 0 20px;
     padding: 4px;
 
 }
 
-.card-droite {
+/* .card-droite { 
     width: 85%;
     height: 155px;
     display: flex;
@@ -345,8 +363,9 @@ a.link-card-gauche,
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
+*/
 
-.euro {
+.gras {
     font-weight: 700;
 }
 
@@ -467,6 +486,7 @@ footer {
         height: 278px;
         margin-top: 60px;
         justify-content: flex-start;
+        
     }
 
     .img-card-droite {
