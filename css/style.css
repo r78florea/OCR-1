@@ -31,7 +31,6 @@ h1,
 h2 {
     font-weight: 700;
     margin: 22px 0;
-    background-color: #0065FC;
 }
 
 p {
@@ -222,7 +221,6 @@ section#hebergements {
     flex-direction: row;
     justify-content: space-between;
     margin-top: 30px;
-    border: solid 1px red;
 }
 
 .hebergements {
@@ -231,7 +229,6 @@ section#hebergements {
     width: 65%;
     display: flex;
     flex-direction: column;
-    border: solid 1px red;
     padding: 20px 40px;
 }
 
@@ -314,12 +311,10 @@ a.link-card-droite {
     flex-direction: column;
     gap: 5px;
     padding: 20px 40px;
-    border: solid 1px red;
 }
 
 
 .populaires > h2 {
-    background-color: #FFFFFF;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -338,7 +333,6 @@ a.link-card-droite {
 
 .link-card-droite {
     height: 144px;
-    /* width: 343px; */
     display: inline-block;
     background: #FFFFFF;
     border-radius: 20px;
@@ -355,43 +349,24 @@ a.link-card-droite {
 }
 
 .link-card-droite > div > p {
-    /* border: solid 1px red; */
     margin: 0 0 30px 0;
     font-size: 14px;
 }
 
 .link-card-droite > div > h3 {
-    /* border: solid 1px red; */
     font-size: 16px;
 }
 
 .link-card-droite > div {
     padding: 15px 16px;
     display: flex;
-    flex-direction: column;
-    /* justify-content: space-between; */
-    
+    flex-direction: column;    
 }
 
 .link-card-droite > div > span {
-    /* border: solid 1px red; */
     display: inline-block;
 }
 
-
-
-/* .card-droite { 
-    width: 85%;
-    height: 155px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background: #FFFFFF;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-}
-*/
 
 .gras {
     font-weight: 700;
@@ -413,8 +388,6 @@ a.link-card-droite {
 
 
 .link-card-activites {
-    /* width: 100%; */
-    /* height: 480px; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 20px;
     width: 23%;
@@ -510,7 +483,6 @@ footer {
         flex-direction: row;
         justify-content: space-around;
         flex-wrap: wrap;
-        /* gap: 30px; */
     
     }
     
@@ -542,7 +514,6 @@ footer {
     .populaires {
         width: 883px;
         flex-direction: column;
-        /* height: 278px; */
         margin-top: 60px;
         justify-content: flex-start;
         
@@ -551,7 +522,6 @@ footer {
     .bloc-populaires {
         display: flex;
         flex-direction: row;
-        /* gap: 30px; */
     }
 
     .link-card-droite {
@@ -573,7 +543,6 @@ footer {
     }
 
     .link-card-droite > div > h3 {
-        /* border: solid 1px red; */
         font-size: 14px;
     }
     
@@ -585,18 +554,21 @@ footer {
         padding: 0;
     }
 
-    .card-activites {
-        width: 23%;
-        height: 300px;
-    }
+    
+.link-card-activites {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    width: 23%;
+    height: 300px;
+    
+}
 
-    .img-activites {
+    .link-card-activites > img {
         height: 75%;
     }
 
     .container-activites {
         height: 56px;
-        /* padding-bottom: 10px; */
     }
 
     #titre-activites {
@@ -630,7 +602,6 @@ footer {
 
     h2 {
         background-color: white;
-        /* font-size: 22px; */
     }
 
     header {
@@ -665,28 +636,18 @@ footer {
         border-bottom: solid 3px #0065FC;
     }
 
-    .flex-container-filtres {
-        /* display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start; */
-    }
-
+   
     .nav-filtres {
         display: flex;
         flex-direction: row;
         align-items: center;
         flex-wrap: wrap;
-        /* height: 150px; */
-        /* justify-content: space-between; */
 
     }
 
     a.nav2 {
         display: flex;
-        /* flex-direction: row; */
         justify-content: flex-start;
-        /* width: 130px; */
         padding: 10px 10px;
         font-size: 11px
     }
@@ -735,9 +696,7 @@ footer {
         display: flex;
         flex-direction: column-reverse;
         width: 375px;
-        border: none;
         margin: 0;
-        /* a effacer depuis desktop a la fin */
     }
 
     .hebergements > h3 {
@@ -859,7 +818,4 @@ footer {
         padding-top: 0px;
         flex-direction: column;
     }
-
-
-
 }
