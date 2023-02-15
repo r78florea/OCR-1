@@ -1,9 +1,9 @@
 En mode desktop large :
 
-1. aligner les titres ds 2 blocs hebergements a la meme hauteur.
 2. rajouter espace au dessus du txt dns <div> des populaires.
 3. Espacer la rangee des etoiles dans populaires vers le bas 
 4.  limiter la zone du curseur sur les filres 
+5. ecarter <afficher plus> vers le bas 
 
 En mode tablette:
 
