@@ -1,0 +1,14 @@
+En mode desktop large :
+
+2. rajouter espace au dessus du txt dns <div> des populaires.
+3. Espacer la rangee des etoiles dans populaires vers le bas 
+4.  limiter la zone du curseur sur les filres 
+5. ecarter <afficher plus> vers le bas 
+
+En mode tablette:
+
+1. Resoudre problemes avec la section hebergements 
+
+En mode portable :
+
+1. Resoudre problemes avec la section hebergements 

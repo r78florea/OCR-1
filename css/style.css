@@ -231,11 +231,13 @@ section#hebergements {
     width: 65%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     border: solid 1px red;
     padding: 20px 40px;
 }
 
+.hebergements > h3 {
+    padding: 40px 4px 20px 5px;
+}
 
 /* Blocs hébergements */
 .bloc-hebergements {
@@ -310,7 +312,7 @@ a.link-card-droite {
     width: 33%;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 5px;
     padding: 20px 40px;
     border: solid 1px red;
 }
@@ -351,7 +353,26 @@ a.link-card-droite {
 
 }
 
+.link-card-droite > div > p {
+    border: solid 1px red;
+    margin: 8px 0px;
+    font-size: 14px;
+}
 
+.link-card-droite > div > h3 {
+    border: solid 1px red;
+    font-size: 16px;
+}
+
+.link-card-droite > div {
+    padding: 15px 16px;
+}
+
+.link-card-droite > div > span {
+    border: solid 1px red;
+    display: inline-block;
+    margin: 36px 0px;
+}
 
 /* .card-droite { 
     width: 85%;
