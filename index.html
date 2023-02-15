@@ -22,8 +22,9 @@
   <div class="page">
 
     <header>
-
-      <img src="./assets/images/logo/booki.png" alt="logo Booki">
+      <a href="#">
+        <img src="./assets/images/logo/booki.png" alt="logo Booki">
+      </a>
       <nav>
         <a href="#hebergements">Hébergements</a>
         <a href="#activites">Activités</a>
@@ -37,7 +38,7 @@
       <h2>Trouvez votre Hébergement pour des vacances de rêve</h2>
       <p>En plein centre-ville ou en pleine nature</p>
 
-      <form>
+      <form action="#" method="post">
         <i class="fa-solid fa-location-dot"></i>
         <input type="text" value="Marseille, France">
         <i class="fa-solid fa-magnifying-glass"></i>
@@ -94,7 +95,7 @@
             <img src="./assets/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hôtel du port">
             <div>
               <h3>Hôtel du port</h3>
-              <p>Nuit à partir de 52<span class="euro">€</span></p>
+              <p>Nuit à partir de 52<span class="gras">€</span></p>
               <span>
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -110,7 +111,7 @@
               alt="Hôtel Les mouettes">
             <div>
               <h3>Hôtel Les mouettes </h3>
-              <p>Nuit à partir de 76<span class="euro">€</span></p>
+              <p>Nuit à partir de 76<span class="gras">€</span></p>
               <span>
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -125,7 +126,7 @@
             <img src="./assets/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hôtel de la mer">
             <div>
               <h3>Hôtel de la mer</h3>
-              <p>Nuit à partir de 46<span class="euro">€</span></p>
+              <p>Nuit à partir de 46<span class="gras">€</span></p>
               <span>
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -140,7 +141,7 @@
             <img src="./assets/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge le Panier">
             <div>
               <h3>Auberge le Panier</h3>
-              <p>Nuit à partir de 23<span class="euro">€</span></p>
+              <p>Nuit à partir de 23<span class="gras">€</span></p>
               <span>
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -156,7 +157,7 @@
               alt="Hôtel Chez Amina">
             <div>
               <h3>Hôtel Chez Amina</h3>
-              <p>Nuit à partir de 96 <span class="euro">€</span></p>
+              <p>Nuit à partir de 96 <span class="gras">€</span></p>
               <span>
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -177,12 +178,14 @@
         <h2>Les plus populaires <i class="fa-solid fa-chart-line"></i></h2>
 
         <div class="bloc-populaires">
-          <a class="link-card-droite">
+          <a class="bloc-populaire">
             <img src="./assets/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
               alt="Hôtel Le soleil du matin">
             <div>
-              <h3>Hôtel Le soleil du matin</h3>
-              <p>Nuit à partir de 128<span class="euro">€</span></p>
+              <div class="bloc-populaire-bis">
+                <h3>Hôtel Le soleil du matin</h3>
+                <p>Nuit à partir de 128<span class="gras">€</span></p>
+              </div>
               <span>
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -194,12 +197,14 @@
           </a>
 
 
-          <a class="link-card-droite">
+          <a class="bloc-populaire">
             <img src="./assets/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
               alt="Chambres d'hôtes Au coeur de l'eau" class="img-card-droite">
             <div>
-              <h3>Chambres d'hôtes Au coeur de l'eau</h3>
-              <p>Nuit à partir de 71<span class="euro">€</span></p>
+              <div class="bloc-populaire-bis">
+                <h3>Chambres d'hôtes Au coeur de l'eau</h3>
+                <p>Nuit à partir de 71<span class="gras">€</span></p>
+              </div>
               <span>
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -211,20 +216,22 @@
           </a>
 
 
-          <a class="link-card-droite">
+          <a class="bloc-populaire">
             <img src="./assets/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
               alt="Hôtel Bleu et Blanc" class="img-card-droite">
-              <div>
+            <div>
+              <div class="bloc-populaire-bis">
                 <h3>Hôtel Bleu et Blanc</h3>
-                <p>Nuit à partir de 68<span class="euro">€</span></p>
-                <span>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star grey"></i>
-                </span>
+                <p>Nuit à partir de 68<span class="gras">€</span></p>
               </div>
+              <span>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star grey"></i>
+              </span>
+            </div>
           </a>
 
 
@@ -238,46 +245,45 @@
 
 
 
-    <h2 id="titre-activites">Activites à Marseille</h2>
+    <h2 id="activites">Activites à Marseille</h2>
     <div class="activites">
 
-        <a class="link-card-activites">
-          <img src="./assets/images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" 
-            alt="Vieux Port">
-          <div class="container-activites">
-            <h3>Vieux-Port</h3>
-          </div>
-        </a>
+      <a class="link-card-activites">
+        <img src="./assets/images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port">
+        <div class="container-activites">
+          <h3>Vieux-Port</h3>
+        </div>
+      </a>
 
 
 
 
-        <a class="link-card-activites">
-          <img src="./assets/images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg" 
-            alt="Fort de Pomègues">
-          <div class="container-activites">
-            <h3>Fort de Pomègues</h3>
-          </div>
-        </a>
+      <a class="link-card-activites">
+        <img src="./assets/images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues">
+        <div class="container-activites">
+          <h3>Fort de Pomègues</h3>
+        </div>
+      </a>
 
 
 
 
-        <a class="link-card-activites">
-          <img src="./assets/images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
-           alt="Parc national des Calanques">
-          <div class="container-activites">
-            <h3>Parc national des Calanques</h3>
-          </div>
-        </a>
+      <a class="link-card-activites">
+        <img src="./assets/images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
+          alt="Parc national des Calanques">
+        <div class="container-activites">
+          <h3>Parc national des Calanques</h3>
+        </div>
+      </a>
 
 
-        <a class="link-card-activites">
-          <img src="./assets/images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde">
-          <div class="container-activites">
-            <h3>Notre-Dame-de-la-Garde</h3>
-          </div>
-        </a>
+      <a class="link-card-activites">
+        <img src="./assets/images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+          alt="Notre-Dame-de-la-Garde">
+        <div class="container-activites">
+          <h3>Notre-Dame-de-la-Garde</h3>
+        </div>
+      </a>
 
 
 
