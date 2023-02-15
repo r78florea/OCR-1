@@ -719,12 +719,13 @@ footer {
 
     .hebergements {
         height: 100%;
+        width: 100%;
         flex-direction: column;
         background-color: #FFFFFF;
         border-radius: 0;
         margin: 25px 0 0 0;
         border: none;
-        padding: 0 20;
+        padding: 0 20px;
     }
 
     .bloc-hebergements {
@@ -782,9 +783,9 @@ footer {
     }
 
     #activites {
-        width: 100%;
+        width: 50%;
         margin: 100px 0 0 0;
-        padding: 0 20;
+        padding: 0 20px;
     }
 
     .activites {
@@ -793,6 +794,7 @@ footer {
         justify-content: space-between;
         width: 100%;
         gap: 25px;
+        padding: 0 20px;
     }
 
     .link-card-activites {
@@ -814,23 +816,13 @@ footer {
 
     }
 
-
-    footer {
-        height: 501px;
-        width: 377px;
-    }
-
     .footer {
-        line-height: 0.3em;
-        margin-top: 50px;
-        padding-top: 0;
-        padding-left: 33px;
-
+        padding: 45px 30px;
+        width: 100%;
     }
 
     .tableau-footer {
         justify-content: flex-start;
-        padding-top: 0px;
         flex-direction: column;
     }
 }
