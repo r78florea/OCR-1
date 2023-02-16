@@ -1,8 +1,5 @@
 /* Reset */
 
-
-
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -47,7 +44,6 @@ button {
 /* Parametres globaux */
 
 
-
 header {
     display: flex;
     flex-direction: row;
@@ -84,7 +80,6 @@ header nav a:active {
 section.recherche {
     margin-top: 48px;
 }
-
 
 form {
     display: flex;
@@ -374,7 +369,6 @@ a.bloc-hebergement,
     margin-top: 60px;
 }
 
-
 .activites {
     height: auto;
     display: flex;
@@ -383,7 +377,6 @@ a.bloc-hebergement,
     flex-wrap: wrap;
     padding-top: 10px;
 }
-
 
 .link-card-activites {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -399,8 +392,6 @@ a.bloc-hebergement,
     object-fit: cover;
     border-radius: 20px 20px 0 0;
 }
-
-
 
 .container-activites {
     height: 65px;
@@ -547,14 +538,6 @@ footer {
 
     }
 
-    /* .bloc-populaire>div>h3 {
-        font-size: 14px;
-    }
-
-    .bloc-populaire>div>p {
-        font-size: 13px;
-    } */
-
     .bloc-populaire-bis > h3 {
         font-size: 16px;
     }
@@ -614,7 +597,6 @@ footer {
         padding: 0;
     }
 
-
     header {
         display: flex;
         flex-direction: column;
@@ -648,7 +630,6 @@ footer {
         border-bottom: solid 3px #F2F2F2;
     }
 
-
     .nav-filtres {
         display: flex;
         flex-direction: row;
@@ -667,7 +648,6 @@ footer {
     .nav-span2 {
         margin-right: 30px;
     }
-
 
     .fa-money-bill-wave,
     .fa-person,
